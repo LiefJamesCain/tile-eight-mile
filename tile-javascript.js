@@ -107,6 +107,7 @@ $(
 
     function initTiles() {
       var board = $("#board");
+      // this is a test change for github //
 
       for (var y = 0; y < 4; y++) {
         for (var x = 0; x < 4; x++) {

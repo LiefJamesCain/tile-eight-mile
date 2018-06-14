@@ -1,5 +1,6 @@
+
 $(
-  function () {
+  function() {
 
     var MARGIN = 2;
     var BORDER = 1;
@@ -7,10 +8,10 @@ $(
     var tileWidth;
     var tileHeight;
     var tiles = [
-    [1, 2, 3, 4],
-    [5, 6, 7, 8],
-    [9, 10, 11, 12],
-    [13, 14, 15, null]
+      [1, 2, 3, 4],
+      [5, 6, 7, 8],
+      [9, 10, 11, 12],
+      [13, 14, 15, null]
     ];
 
     var gapX = 3;
@@ -101,7 +102,7 @@ $(
 
       positionTiles();
 
-    }
+    } 
 
 
     function initTiles() {
@@ -117,7 +118,7 @@ $(
             tile.data("x", x).data("y", y);
             tiles[y][x] = tile;
             if (x % 2) {
-              tile.css("backgroundColor", "grey");
+              tile.css("backgroundColor", "Grey");
             } else {
               tile.css("backgroundColor", "Green");
             }
@@ -162,7 +163,7 @@ $(
       event.preventDefault();
     }
 
-    return function (evt) {
+    return function(evt) {
       $(window).resize(resize);
       $(document).keydown(keydown);
       initTiles();

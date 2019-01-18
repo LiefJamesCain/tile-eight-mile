@@ -8,8 +8,10 @@ This is a simple tile game project that I created. Have fun!
 
 ## Built With
 
-<!-- html -->
+<!- html ->
+
 /* css */
+
 // javascript
 
 
